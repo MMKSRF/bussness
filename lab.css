@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Outfit:wght@100..900&display=swap');
+h1, h2 ,h3, h4,h5,h6 {
+   font-family: Tinos ;
+   font-weight: bold;
+}
+
+
+/* the light mode */
+
+
+.moon-log{
+    width: 40px;
+   
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .navbar {
+    background-color: #444;
+  }
+  
+  .dark-mode .nav-link {
+    color: #fff;
+  }
+  
+  .dark-mode .nav-link:hover {
+    color: #ccc;
+  }
+
+  /* the light mode end */
+
+/* the Moon */
+.moon-btn {
+    /* remove default button styles */
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    
+    /* create a moon shape */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    transform: rotate(-45deg);
+  }
+  
+  .moon-btn::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: rotate(45deg);
+  }
+  
+  .moon-btn:hover {
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.4);
+  }
+  /* the mood end */
+
+
+p{
+    font-family:'Outfit', sans-serif;
+
+}
+
+
+
+.the-h4{
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+/* the side log   (the first anime)*/
+
+.cont-side-log{
+    position: relative;
+}
+
+.side-log{
+
+    width: 60%; /* or any other value */
+    height: auto; /* to preserve the aspect ratio */
+    border-radius: 2%;
+   margin-left: 20%;
+   margin-top: 10%;
+
+}
+
+/* the side log (the first anime end) */
+
+/* second anime */
+.second-png{
+    position: relative;
+    width: 40%;
+    margin-left:30%;
+    padding-top:3% ;
+
+}
+
+.log0{
+    font-family: Tinos ;
+    font-weight: bold;
+}
+
+.green{
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+    text-shadow: 1px 1px 3px #000;
+
+}
+.red{
+    color: red;
+}
+
+
+
+
+/* 2 first buttons */
+.my-btn {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .my-btn:hover {
+    background-color: #007bff; /* Change to your desired hover color */
+    color: #ffffff; /* Change to your desired hover text color */
+  }
+  
+  .my-blue-border {
+    border: 1px solid #007bff; /* Change to your desired border color */
+  }
+  
+  .hover-effect {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow on hover */
+  }
+  
+  .hover-effect:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Increase box shadow on hover */
+  }
+
+
+
+  .my-btn:active {
+    background-color: #23527c;
+    border-color: #23527c;
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+
+  /* 2 first buttons end */
