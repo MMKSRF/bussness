@@ -167,3 +167,20 @@ p{
   }
 
   /* 2 first buttons end */
+
+
+
+/* the white stick in the second div  */
+  .stick-white{
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+  }
+
+  /* the white stick in the second div end */
+
+  .left-stick{
+    position: relative;
+    left: 9%;
+    width: 90%;
+  }
